@@ -70,7 +70,7 @@ ToyTales is a modern React-based web app where users can view information about 
 ## 📸 Website Screenshots
 
 ### 🏠 Home Page
-![Homepage Screenshot](public/Home.jpeg)
+![Homepage Screenshot](public/Home.jpg)
 
 ---
 ### 🖥️ How to Run Locally:
