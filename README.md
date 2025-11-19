@@ -76,9 +76,9 @@ ToyTales is a modern React-based web app where users can view information about 
 ### 🖥️ How to Run Locally:
 1. Clone the Repository
 
-Create file plateshare
+Create file ToyTales
 ```
-cd plateshare
+cd ToyTales
 ```
 ```
 git clone https://github.com/ashadulislam6156rs/Toy-Store-Platform-ToyTales.git
