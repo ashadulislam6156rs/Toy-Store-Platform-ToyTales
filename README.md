@@ -35,4 +35,60 @@ ToyTales is a modern React-based web app where users can view information about 
 | Validation     | PropTypes    
 | Data Fetching  | React Axios              |
 
+## Dependencies (Client Side)
+```
+"dependencies": {
+    "@tailwindcss/vite": "^4.1.15",
+    "axios": "^1.12.2",
+    "firebase": "^12.4.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.5.0",
+    "react-router": "^7.9.4",
+    "react-router-dom": "^7.9.4",
+    "react-toastify": "^11.0.5",
+    "swiper": "^12.0.3",
+    "tailwindcss": "^4.1.15"
+  },
+```
+```
+"devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "daisyui": "^5.3.7",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+```
+---
+## 📸 Website Screenshots
 
+### 🏠 Home Page
+![Homepage Screenshot](public/Home.jpeg)
+
+---
+### 🖥️ How to Run Locally:
+1. Clone the Repository
+
+Create file plateshare
+```
+cd plateshare
+```
+```
+git clone https://github.com/ashadulislam6156rs/Toy-Store-Platform-ToyTales.git
+
+```
+2. Install Dependencies
+```
+npm i
+```
+3. Start Development Server
+```
+npm run dev
+```
