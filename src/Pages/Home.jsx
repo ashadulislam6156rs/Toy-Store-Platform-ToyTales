@@ -3,6 +3,7 @@ import BannerSlider from '../Banner/BannerSlider';
 import PopularToys from '../Componants/PopularToys';
 import Testimonial from '../Componants/Testimonial';
 import MagicMoments from '../Componants/MagicMoments';
+import Brand from '../Componants/Brand';
 
 const Home = () => {
 
@@ -15,7 +16,10 @@ const Home = () => {
           <section>
             <PopularToys></PopularToys>
           </section>
-          <section className='p-5'>
+          <section>
+            <Brand></Brand>
+          </section>
+          <section className="p-5">
             <MagicMoments></MagicMoments>
           </section>
           <section>

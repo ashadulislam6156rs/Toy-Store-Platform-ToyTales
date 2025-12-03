@@ -19,7 +19,7 @@ import { TbHorseToy } from "react-icons/tb";
 const BannerSlider = () => {
   return (
     <>
-      <Container className={"md:py-10 py-7 px-1"}>
+      <Container className={"md:py-7 py-5 px-1"}>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -37,7 +37,7 @@ const BannerSlider = () => {
         >
           <SwiperSlide>
             <div
-              className="w-full h-[250px] md:h-[500px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
+              className="w-full h-[250px] md:h-[400px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
               style={{ backgroundImage: `url(${bnImg1})` }}
             >
               <div className="flex-1"></div>
@@ -70,7 +70,7 @@ const BannerSlider = () => {
           {/* 2 */}
           <SwiperSlide>
             <div
-              className="w-full h-[250px] md:h-[500px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
+              className="w-full h-[250px] md:h-[400px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
               style={{ backgroundImage: `url(${bgImg2})` }}
             >
               <div className="flex-1"></div>
@@ -103,7 +103,7 @@ const BannerSlider = () => {
           {/* 3 */}
           <SwiperSlide>
             <div
-              className="w-full h-[250px] md:h-[500px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
+              className="w-full h-[250px] md:h-[400px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
               style={{ backgroundImage: `url(${bgImg3})` }}
             >
               <div className="flex-1"></div>
@@ -136,7 +136,7 @@ const BannerSlider = () => {
           {/* 4 */}
           <SwiperSlide>
             <div
-              className="w-full h-[250px] md:h-[500px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
+              className="w-full h-[250px] md:h-[400px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
               style={{ backgroundImage: `url(${bgImg4})` }}
             >
               <div className="flex-1"></div>
@@ -169,7 +169,7 @@ const BannerSlider = () => {
           {/* 5 */}
           <SwiperSlide>
             <div
-              className="w-full h-[250px] md:h-[500px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
+              className="w-full h-[250px] md:h-[400px] bg-cover bg-center rounded-lg flex items-center p-5 md:p-20 lg:p-25"
               style={{ backgroundImage: `url(${bgImg5})` }}
             >
               <div className="flex-1"></div>

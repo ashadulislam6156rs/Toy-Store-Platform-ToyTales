@@ -1,49 +1,44 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
-import Container from "../Container/Container";
-import { CgProfile } from "react-icons/cg";
 import { AuthContext } from "../Context/AuthContext";
 import { toast } from "react-toastify";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 
 const Navbar = () => {
-
   const { user, userLogOut, setUser } = useContext(AuthContext);
-  
 
   const handleLogOut = () => {
     userLogOut()
       .then(() => {
         // Sign-out successful.
-         toast.success(`Sign-out successful.`, {
-           position: "top-right",
-           autoClose: 3000,
-           hideProgressBar: false,
-           closeOnClick: true,
-           pauseOnHover: true,
-           draggable: true,
-           progress: undefined,
-         });
-        setUser(null)
+        toast.success(`Sign-out successful.`, {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+        setUser(null);
       })
       .catch((error) => {
         toast.error(`${error.message}`, {
-               position: "top-right",
-               autoClose: 4000,
-               hideProgressBar: false,
-               closeOnClick: true,
-               pauseOnHover: true,
-               draggable: true,
-               progress: undefined,
-             });
-        
+          position: "top-right",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
       });
-  }
-  
+  };
+
   return (
     <>
-      <Container>
-        <div className="navbar bg-base-100 py-0 md:py-2">
+      <div className="max-w-7xl mx-auto md:px-5 z-50">
+        <div className="navbar bg-base-100 py-0 md:py-2 sticky top-0">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -89,6 +84,27 @@ const Navbar = () => {
                     }
                   >
                     Toys
+                  </NavLink>
+                </li>
+
+                <li className="hover:text-[#258184]">
+                  <NavLink
+                    to={"/about-us"}
+                    className={({ isActive }) =>
+                      isActive ? "pb-1 bg-[#258184] text-white" : ""
+                    }
+                  >
+                    About us
+                  </NavLink>
+                </li>
+                <li className="hover:text-[#258184]">
+                  <NavLink
+                    to={"/contact-us"}
+                    className={({ isActive }) =>
+                      isActive ? "pb-1 bg-[#258184] text-white" : ""
+                    }
+                  >
+                    Contact us
                   </NavLink>
                 </li>
                 {user && (
@@ -147,6 +163,30 @@ const Navbar = () => {
                   Toys
                 </NavLink>
               </li>
+              <li className="hover:text-[#258184]">
+                <NavLink
+                  to={"/about-us"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "border-b-2 pb-1 text-[#258184] border-b-[#258184]"
+                      : ""
+                  }
+                >
+                  About us
+                </NavLink>
+              </li>
+              <li className="hover:text-[#258184]">
+                <NavLink
+                  to={"/contact-us"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "border-b-2 pb-1 text-[#258184] border-b-[#258184]"
+                      : ""
+                  }
+                >
+                  Contact us
+                </NavLink>
+              </li>
               {user && (
                 <>
                   <li className="hover:text-[#258184]">
@@ -180,15 +220,13 @@ const Navbar = () => {
           <div className="navbar-end">
             <div className="flex items-center gap-2 md:gap-3">
               <div title={`${user ? user.displayName : "No User Name"}`}>
-                {user && user.photoURL ? (
+                {user && user.photoURL && (
                   <div className="w-10 cursor-pointer h-10 border-2 border-blue-500 rounded-full overflow-hidden flex justify-center items-center">
                     <img
                       className="w-10 h-10 rounded-full"
                       src={user.photoURL}
                     ></img>
                   </div>
-                ) : (
-                  <CgProfile className="cursor-pointer text-2xl md:text-4xl" />
                 )}
               </div>
               <div>
@@ -207,7 +245,7 @@ const Navbar = () => {
                 ) : (
                   <Link
                     to={"/login"}
-                    className=" px-4 md:px-7 py-1.5 md:py-2.5 rounded-md font-semibold text-xs md:text-base bg-[#ff0017] text-white hover:bg-teal-500 transition-colors duration-700 ease-in-out"
+                    className=" btn btn-sm md:btn-md rounded-md font-semibold text-xs md:text-base bg-[#ff0017] text-white hover:bg-teal-500 transition-colors duration-700 ease-in-out"
                   >
                     Log In
                   </Link>
@@ -216,7 +254,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </>
   );
 };

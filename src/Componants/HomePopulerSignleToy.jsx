@@ -42,7 +42,7 @@ const HomePopulerSignleToy = ({ sigleToy }) => {
             <div className="card-actions w-full">
               <Link
                 to={`/toydetails/${toyId}`}
-                className="btn text-white hover:bg-linear-to-l bg-linear-to-r to-[#500fe7] from-[#9F62F2] w-full"
+                className="btn text-white bg-[#258184] hover:bg-[#0bb9bf] transition-colors duration-700 ease-in-out w-full"
               >
                 View Details{" "}
                 <span className="ml-2">

@@ -1,3 +1,4 @@
+
 [
   {
     "toyId": 1,
@@ -9,7 +10,19 @@
     "availableQuantity": 75,
     "description": "The Lego Classic Bricks set is a timeless favorite that sparks creativity in children of all ages. With a vibrant assortment of colorful bricks, kids can build anything they imagine—from simple houses and animals to complex vehicles and fantasy worlds. This set encourages open-ended play, helping children develop spatial awareness, problem-solving skills, and fine motor coordination. Whether playing solo or with friends, Lego bricks offer endless possibilities and hours of screen-free fun. Made from durable, child-safe materials, this set is perfect for both beginners and seasoned builders. It’s not just a toy—it’s a gateway to imagination and innovation.",
     "pictureURL": "https://i.pinimg.com/1200x/71/72/9f/71729fa6333a5c2bbd03b735e2e2c236.jpg",
-    "subCategory": "Building Blocks"
+    "subCategory": "Building Blocks",
+    "ageGroup": "4+ years",
+    "dimensions": "26 x 19 x 7 cm",
+    "weight": "1.2 kg",
+    "material": "ABS Plastic",
+    "features": ["Creative building", "Colorful bricks", "Durable & safe"],
+    "safetyInfo": "Non-toxic, BPA-free, choking hazard for children under 3 years",
+    "manufacturer": "LEGO Group",
+    "releaseDate": "2019",
+    "reviews": [
+      { "user": "Alice", "comment": "My kids love it!", "rating": 5 },
+      { "user": "Bob", "comment": "Good quality bricks.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 2,
@@ -21,7 +34,23 @@
     "availableQuantity": 60,
     "description": "The Wooden Train Set is a charming, eco-friendly toy that brings classic railway adventures to life. Crafted from smooth, high-quality wood, this set includes magnetic train cars, curved and straight tracks, bridges, and decorative pieces like trees and signs. It’s designed to inspire storytelling and imaginative play while enhancing hand-eye coordination and logical thinking. Children can build their own track layouts, connect trains, and simulate real-world travel scenarios. The tactile feel of wood adds a sensory richness that plastic toys often lack. Ideal for toddlers and preschoolers, this train set is a beautiful blend of tradition, learning, and fun.",
     "pictureURL": "https://i.pinimg.com/736x/26/04/ca/2604cac0327eee5dc8fb1e497614e88f.jpg",
-    "subCategory": "Vehicles"
+    "subCategory": "Vehicles",
+    "ageGroup": "3+ years",
+    "dimensions": "45 x 30 x 10 cm",
+    "weight": "1.5 kg",
+    "material": "Wood & Magnet",
+    "features": [
+      "Magnetic train cars",
+      "Eco-friendly wood",
+      "Interactive play"
+    ],
+    "safetyInfo": "Non-toxic paint, small parts for children under 3 may be unsafe",
+    "manufacturer": "Happy Wheels Toys",
+    "releaseDate": "2020",
+    "reviews": [
+      { "user": "Charlie", "comment": "Perfect for my toddler!", "rating": 5 },
+      { "user": "Daisy", "comment": "Very sturdy and fun.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 3,
@@ -33,7 +62,19 @@
     "availableQuantity": 120,
     "description": "The Alphabet Puzzle Board is a delightful educational toy that introduces young learners to the world of letters in a hands-on, engaging way. Each wooden letter fits snugly into its corresponding slot, helping children recognize shapes, improve memory, and develop fine motor skills. Bright colors and smooth edges make it safe and visually appealing. As kids match letters and say them aloud, they build early literacy skills and phonetic awareness. Parents and teachers can use it for interactive learning sessions, spelling games, or even storytelling prompts. It’s more than a puzzle—it’s a foundational tool for confident, joyful learning.",
     "pictureURL": "https://i.pinimg.com/736x/1e/1d/63/1e1d63bc2809a88c7e794b3bb2c847bf.jpg",
-    "subCategory": "Educational"
+    "subCategory": "Educational",
+    "ageGroup": "2+ years",
+    "dimensions": "30 x 22 x 2 cm",
+    "weight": "0.5 kg",
+    "material": "Wood",
+    "features": ["Educational letters", "Fine motor skills", "Bright & safe"],
+    "safetyInfo": "Non-toxic paint, small pieces may pose choking hazard for children under 2",
+    "manufacturer": "EduPlay Inc.",
+    "releaseDate": "2021",
+    "reviews": [
+      { "user": "Emma", "comment": "Great learning toy!", "rating": 5 },
+      { "user": "Liam", "comment": "Keeps my toddler busy.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 4,
@@ -45,7 +86,23 @@
     "availableQuantity": 90,
     "description": "The Mini Kitchen Set is a compact and colorful playset designed to spark culinary imagination in young minds. It includes realistic utensils, a pretend stove, pots, pans, and play food items that mimic real kitchen essentials. Children can role-play as chefs, hosts, or parents, enhancing their social skills and creativity. This toy encourages cooperative play and helps kids understand everyday routines in a fun and engaging way. Made from safe, durable materials, it’s perfect for indoor play and easy to store. Whether cooking up imaginary meals or hosting a tea party, this kitchen set turns playtime into a learning experience.",
     "pictureURL": "https://i.pinimg.com/736x/3f/4f/fb/3f4ffb2b4c125b130c8d6aa740544168.jpg",
-    "subCategory": "Role Play"
+    "subCategory": "Role Play",
+    "ageGroup": "3+ years",
+    "dimensions": "40 x 25 x 15 cm",
+    "weight": "1.3 kg",
+    "material": "Plastic",
+    "features": ["Role play", "Realistic utensils", "Creative imagination"],
+    "safetyInfo": "Non-toxic, BPA-free, avoid small children under 3",
+    "manufacturer": "Little Chef Toys",
+    "releaseDate": "2022",
+    "reviews": [
+      {
+        "user": "Sophia",
+        "comment": "My daughter loves cooking pretend meals!",
+        "rating": 5
+      },
+      { "user": "Noah", "comment": "Good quality and safe.", "rating": 4.3 }
+    ]
   },
   {
     "toyId": 5,
@@ -57,7 +114,27 @@
     "availableQuantity": 150,
     "description": "Colorful Building Blocks are a vibrant and versatile toy designed to stimulate young minds through hands-on construction. These soft plastic blocks come in various shapes and sizes, allowing children to build towers, animals, vehicles, and more. The bright colors help with visual recognition, while the interlocking design promotes fine motor skills and spatial reasoning. Ideal for solo or group play, these blocks encourage creativity, patience, and problem-solving. Made from non-toxic, child-safe materials, they’re easy to clean and store. Whether used at home or in a classroom, these building blocks offer endless opportunities for imaginative exploration and learning.",
     "pictureURL": "https://i.pinimg.com/736x/f5/b6/1c/f5b61c3b2df6348b29abb1d2f98bcfcd.jpg",
-    "subCategory": "Building Blocks"
+    "subCategory": "Building Blocks",
+    "ageGroup": "2+ years",
+    "dimensions": "28 x 20 x 10 cm",
+    "weight": "0.8 kg",
+    "material": "Plastic",
+    "features": [
+      "Interlocking blocks",
+      "Bright colors",
+      "Motor skill development"
+    ],
+    "safetyInfo": "Non-toxic, small pieces, not for children under 2 years",
+    "manufacturer": "Bright Blocks Co.",
+    "releaseDate": "2021",
+    "reviews": [
+      { "user": "Mia", "comment": "Fun and educational.", "rating": 4.5 },
+      {
+        "user": "Ethan",
+        "comment": "Good quality plastic blocks.",
+        "rating": 4
+      }
+    ]
   },
   {
     "toyId": 6,
@@ -69,7 +146,19 @@
     "availableQuantity": 200,
     "description": "This Stuffed Teddy Bear is more than just a cuddly companion—it’s a source of comfort, security, and emotional bonding for children. Made with ultra-soft, hypoallergenic fabric and stitched with care, it’s perfect for hugs, bedtime snuggles, and imaginative play. Its friendly face and plush texture help soothe anxiety and promote restful sleep. Whether gifted on a birthday or used as a daily comfort item, this teddy bear becomes a cherished part of childhood. Easy to clean and safe for all ages, it’s designed to last through years of love and adventure. A timeless toy that never goes out of style.",
     "pictureURL": "https://i.pinimg.com/736x/ac/d4/1e/acd41eb0a7502861ece372a0462cb77a.jpg",
-    "subCategory": "Soft Toys"
+    "subCategory": "Soft Toys",
+    "ageGroup": "0+ years",
+    "dimensions": "25 x 15 x 10 cm",
+    "weight": "0.4 kg",
+    "material": "Plush Fabric",
+    "features": ["Cuddly companion", "Hypoallergenic", "Soft & safe"],
+    "safetyInfo": "Machine washable, suitable for all ages",
+    "manufacturer": "Cuddle Corner",
+    "releaseDate": "2018",
+    "reviews": [
+      { "user": "Olivia", "comment": "Super soft and cute!", "rating": 5 },
+      { "user": "Lucas", "comment": "My son loves it.", "rating": 4.8 }
+    ]
   },
   {
     "toyId": 7,
@@ -81,7 +170,19 @@
     "availableQuantity": 85,
     "description": "The Remote Control Car is a high-speed thrill machine built for young racers and adventure seekers. With a sleek design, durable wheels, and responsive controls, it’s perfect for both indoor and outdoor play. The rechargeable battery ensures long-lasting fun, while the sturdy build can handle bumps, turns, and rough terrain. Kids can race with friends, set up obstacle courses, or simply enjoy solo driving sessions. This toy promotes hand-eye coordination, spatial awareness, and motor skills. Whether zooming across the living room or speeding down the driveway, this RC car delivers excitement, independence, and hours of energetic entertainment.",
     "pictureURL": "https://i.pinimg.com/736x/d5/e5/7a/d5e57afa1249f0e63850a9c909bf80bb.jpg",
-    "subCategory": "Vehicles"
+    "subCategory": "Vehicles",
+    "ageGroup": "5+ years",
+    "dimensions": "30 x 15 x 10 cm",
+    "weight": "0.9 kg",
+    "material": "Plastic & Metal",
+    "features": ["High-speed", "Rechargeable battery", "Indoor & outdoor play"],
+    "safetyInfo": "Keep away from water, small parts for children under 5",
+    "manufacturer": "Zoom Toys",
+    "releaseDate": "2021",
+    "reviews": [
+      { "user": "James", "comment": "Fast and fun!", "rating": 4.5 },
+      { "user": "Ava", "comment": "Good for outdoor play.", "rating": 4 }
+    ]
   },
   {
     "toyId": 8,
@@ -93,7 +194,23 @@
     "availableQuantity": 110,
     "description": "The Doctor Play Kit is a complete pretend medical set that inspires empathy, curiosity, and role-playing fun. It includes a stethoscope, thermometer, syringe, bandages, and more—all designed to mimic real medical tools in a safe, child-friendly way. Kids can play doctor, nurse, or patient, learning about health and care through imaginative scenarios. This toy helps reduce fear of real doctor visits and encourages nurturing behavior. Ideal for solo or group play, it fosters communication, emotional intelligence, and storytelling. Made from durable, non-toxic materials, it’s a great gift for aspiring healers and curious minds.",
     "pictureURL": "https://i.pinimg.com/1200x/57/ba/5d/57ba5d0334cfdd5de838eef0a7da0980.jpg",
-    "subCategory": "Role Play"
+    "subCategory": "Role Play",
+    "ageGroup": "3+ years",
+    "dimensions": "30 x 20 x 10 cm",
+    "weight": "0.7 kg",
+    "material": "Plastic",
+    "features": ["Role play", "Medical tools set", "Safe & durable"],
+    "safetyInfo": "Non-toxic, avoid small children under 3",
+    "manufacturer": "RolePlay World",
+    "releaseDate": "2020",
+    "reviews": [
+      {
+        "user": "Isabella",
+        "comment": "Perfect for imaginative play!",
+        "rating": 5
+      },
+      { "user": "Mason", "comment": "Kids loved it.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 9,
@@ -105,7 +222,23 @@
     "availableQuantity": 130,
     "description": "Animal Flash Cards are a fun and educational tool designed to introduce children to the animal kingdom. Each card features a vibrant illustration, the animal’s name, and a fun fact to spark curiosity. Perfect for toddlers and preschoolers, these cards support early literacy, memory development, and vocabulary building. Parents and teachers can use them for games, quizzes, or storytelling. The cards are made from sturdy, child-safe material and come in a portable box for easy storage. Whether learning at home or in the classroom, these flash cards make education interactive, visual, and exciting.",
     "pictureURL": "https://i.pinimg.com/1200x/7d/4c/fb/7d4cfb0e29536aec5d72313e77a52861.jpg",
-    "subCategory": "Educational"
+    "subCategory": "Educational",
+    "ageGroup": "2+ years",
+    "dimensions": "15 x 10 x 5 cm",
+    "weight": "0.3 kg",
+    "material": "Cardboard",
+    "features": ["Educational", "Animal facts", "Portable & durable"],
+    "safetyInfo": "Non-toxic, not for children under 2",
+    "manufacturer": "Smart Learners",
+    "releaseDate": "2019",
+    "reviews": [
+      {
+        "user": "Charlotte",
+        "comment": "Great for learning animals!",
+        "rating": 5
+      },
+      { "user": "Henry", "comment": "Durable cards.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 10,
@@ -117,7 +250,19 @@
     "availableQuantity": 70,
     "description": "The Musical Drum Set is a dynamic toy that introduces children to rhythm, sound, and musical creativity. It includes mini drums, cymbals, and drumsticks designed for small hands. Playing the drums helps develop motor skills, coordination, and auditory awareness. Kids can explore beats, create their own rhythms, and even perform for family and friends. This toy encourages self-expression and builds confidence through performance. Made from durable, non-toxic materials, it’s safe for energetic play and easy to assemble. Whether your child dreams of being a drummer or just loves making noise, this set is a perfect musical gateway.",
     "pictureURL": "https://i.pinimg.com/1200x/4d/4d/5c/4d4d5cb15d2d08071d3eb64d5aec4331.jpg",
-    "subCategory": "Musical Toys"
+    "subCategory": "Musical Toys",
+    "ageGroup": "3+ years",
+    "dimensions": "35 x 25 x 20 cm",
+    "weight": "1.1 kg",
+    "material": "Plastic & Metal",
+    "features": ["Musical play", "Motor skill development", "Fun performance"],
+    "safetyInfo": "Non-toxic, avoid hitting others",
+    "manufacturer": "Tiny Tunes",
+    "releaseDate": "2020",
+    "reviews": [
+      { "user": "Ella", "comment": "Great sound quality!", "rating": 4.5 },
+      { "user": "Logan", "comment": "Fun for kids.", "rating": 4 }
+    ]
   },
   {
     "toyId": 11,
@@ -129,7 +274,19 @@
     "availableQuantity": 180,
     "description": "The Puzzle Cube is a classic brain teaser that challenges kids to think critically and solve problems. With its colorful rotating sides and complex patterns, it promotes logical reasoning, patience, and perseverance. Children can race against time, compete with friends, or simply enjoy the satisfaction of solving it. This toy is great for improving spatial awareness and memory. Compact and portable, it’s perfect for travel, school breaks, or quiet time. Whether used as a mental workout or a fun distraction, the Puzzle Cube remains a timeless tool for sharpening young minds.",
     "pictureURL": "https://i.pinimg.com/736x/42/05/35/4205352b2d7a7ca91f2fc68f964a1721.jpg",
-    "subCategory": "Educational"
+    "subCategory": "Educational",
+    "ageGroup": "6+ years",
+    "dimensions": "6 x 6 x 6 cm",
+    "weight": "0.2 kg",
+    "material": "Plastic",
+    "features": ["Brain teaser", "Logical thinking", "Portable"],
+    "safetyInfo": "Not for children under 3",
+    "manufacturer": "MindFlex",
+    "releaseDate": "2018",
+    "reviews": [
+      { "user": "Zoe", "comment": "Great puzzle!", "rating": 4 },
+      { "user": "Jack", "comment": "Keeps kids busy.", "rating": 4.2 }
+    ]
   },
   {
     "toyId": 12,
@@ -141,7 +298,19 @@
     "availableQuantity": 50,
     "description": "The Mini Doll House is a beautifully crafted playset that brings imaginative storytelling to life. With detailed furniture, tiny accessories, and multiple rooms, children can create endless scenarios—from family dinners to birthday parties. This toy encourages creativity, empathy, and role-playing as kids assign personalities to dolls and build narratives. It also helps develop fine motor skills through arranging and decorating. Made from safe, durable materials, the doll house is easy to assemble and store. Whether playing solo or with friends, this miniature world offers hours of joyful exploration and emotional growth.",
     "pictureURL": "https://i.pinimg.com/736x/ad/4a/84/ad4a842b63ddb21bd3a7c63203f5c6fd.jpg",
-    "subCategory": "Role Play"
+    "subCategory": "Role Play",
+    "ageGroup": "3+ years",
+    "dimensions": "50 x 35 x 40 cm",
+    "weight": "2 kg",
+    "material": "Wood & Plastic",
+    "features": ["Role play", "Detailed furniture", "Interactive storytelling"],
+    "safetyInfo": "Non-toxic, avoid small children under 3",
+    "manufacturer": "Dream Homes",
+    "releaseDate": "2021",
+    "reviews": [
+      { "user": "Grace", "comment": "Beautiful and durable.", "rating": 5 },
+      { "user": "Eli", "comment": "My daughter loves it.", "rating": 4.7 }
+    ]
   },
   {
     "toyId": 13,
@@ -153,7 +322,23 @@
     "availableQuantity": 95,
     "description": "The Animal Figurine Set includes lifelike models of lions, elephants, giraffes, and more—perfect for storytelling, learning, and imaginative play. Each figurine is crafted with attention to detail, helping children recognize animal features and behaviors. These toys support early science education and spark curiosity about wildlife and habitats. Kids can create jungle scenes, zoo adventures, or safari expeditions. Durable and safe for all ages, the set is ideal for both playtime and educational use. Whether used in classrooms or at home, these figurines make learning about animals fun and interactive.",
     "pictureURL": "https://i.pinimg.com/736x/ec/ff/3c/ecff3cff02553c5e98ef0f5aee6bbbb6.jpg",
-    "subCategory": "Figurines"
+    "subCategory": "Figurines",
+    "ageGroup": "3+ years",
+    "dimensions": "20 x 15 x 10 cm",
+    "weight": "0.6 kg",
+    "material": "Plastic",
+    "features": ["Lifelike animals", "Educational", "Durable"],
+    "safetyInfo": "Non-toxic, small parts may pose risk under 3",
+    "manufacturer": "Wild Wonders",
+    "releaseDate": "2019",
+    "reviews": [
+      {
+        "user": "Nora",
+        "comment": "Perfect for learning animals.",
+        "rating": 4.5
+      },
+      { "user": "Leo", "comment": "Very detailed figurines.", "rating": 4.3 }
+    ]
   },
   {
     "toyId": 14,
@@ -165,7 +350,23 @@
     "availableQuantity": 160,
     "description": "The Coloring Book & Crayons set is a vibrant gateway to artistic expression for young creators. With themed pages featuring animals, nature, and everyday scenes, children can explore their imagination while practicing fine motor skills. The included non-toxic crayons glide smoothly across the pages, making coloring effortless and enjoyable. This set encourages creativity, patience, and focus, while also helping kids learn about colors, shapes, and storytelling. Whether used during quiet time, in classrooms, or on family trips, it provides hours of screen-free entertainment. It’s a perfect gift for budding artists and a wonderful way to nurture emotional and cognitive growth.",
     "pictureURL": "https://i.pinimg.com/736x/0e/d2/64/0ed26458c4b0beb9deed27bd196907c7.jpg",
-    "subCategory": "Art & Craft"
+    "subCategory": "Art & Craft",
+    "ageGroup": "3+ years",
+    "dimensions": "25 x 20 x 1 cm",
+    "weight": "0.4 kg",
+    "material": "Paper & Crayons",
+    "features": [
+      "Artistic expression",
+      "Non-toxic crayons",
+      "Fine motor skills"
+    ],
+    "safetyInfo": "Non-toxic, supervision recommended for young children",
+    "manufacturer": "Creative Kids",
+    "releaseDate": "2020",
+    "reviews": [
+      { "user": "Avery", "comment": "Great creative set!", "rating": 5 },
+      { "user": "Mila", "comment": "Kids love coloring.", "rating": 4.5 }
+    ]
   },
   {
     "toyId": 15,
@@ -177,6 +378,22 @@
     "availableQuantity": 140,
     "description": "Glow-in-the-Dark Stars are a magical way to bring the night sky indoors. This set includes dozens of star and planet shapes that can be easily stuck to walls or ceilings, transforming any room into a cosmic wonderland. During the day, they absorb light, and at night, they emit a gentle glow that comforts children and sparks curiosity about space. Ideal for bedtime routines, these stars help ease nighttime anxiety and encourage imaginative thinking. Whether used for decoration or learning about astronomy, they offer a peaceful and inspiring environment. Safe, easy to apply, and endlessly enchanting—perfect for dreamers of all ages.",
     "pictureURL": "https://i.pinimg.com/736x/f9/b5/7f/f9b57f37dc8fc75be079ace55720fa8f.jpg",
-    "subCategory": "Decorative Toys"
+    "subCategory": "Decorative Toys",
+    "ageGroup": "3+ years",
+    "dimensions": "30 x 30 x 1 cm",
+    "weight": "0.2 kg",
+    "material": "Glow-in-the-dark plastic",
+    "features": ["Decorative", "Educational", "Safe & fun"],
+    "safetyInfo": "Non-toxic, avoid small children under 3",
+    "manufacturer": "Night Sky Toys",
+    "releaseDate": "2019",
+    "reviews": [
+      { "user": "Scarlett", "comment": "Beautiful and magical!", "rating": 5 },
+      {
+        "user": "Wyatt",
+        "comment": "Kids love the stars glowing.",
+        "rating": 4.6
+      }
+    ]
   }
 ]

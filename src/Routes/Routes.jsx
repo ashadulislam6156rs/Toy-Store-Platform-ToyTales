@@ -11,6 +11,9 @@ import ForgetPassword from "../Pages/ForgetPassword";
 import Toys from "../Pages/Toys";
 import GiftCenter from "../Pages/GiftCenter";
 import ErrorPage_404 from "../Error/ErrorPage_404";
+import AboutUs from "../Pages/AboutUs";
+import Contact from "../Pages/Contact";
+import Privacy from "../Pages/Privacy";
 
 
 const router = createBrowserRouter([
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
       {
         path: "/forgotpassword",
         element: <ForgetPassword />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contact-us",
+        element: <Contact />,
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />,
       },
       {
         path: "/myprofile",
@@ -56,11 +71,7 @@ const router = createBrowserRouter([
       {
         path: "/toydetails/:id",
         loader: () => fetch("/data.json"),
-        element: (
-          <PrivateRoute>
-            <ToysDetails />
-          </PrivateRoute>
-        ),
+        element: <ToysDetails />,
         hydrateFallbackElement: <Loading></Loading>,
       },
       {

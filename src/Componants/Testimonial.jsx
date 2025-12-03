@@ -10,7 +10,7 @@ const Testimonial = () => {
   return (
     <div className="p-1">
       <Container>
-        <h1 className="text-2xl md:pb-10 py-5 italic text-[#e54768] text-center font-bold">
+        <h1 className="md:text-3xl text-xl md:pb-8 py-5 text-[#18181b] text-center font-bold">
           Testimonials
         </h1>
         <div className="flex flex-col md:flex-row md:gap-7 gap-4 items-center bg-[#e2adf9] p-5 md:p-10 rounded-md mb-5">

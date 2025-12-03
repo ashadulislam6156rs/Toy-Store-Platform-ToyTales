@@ -11,7 +11,7 @@ const ToyCard = ({ sigleToy }) => {
   return (
     <div className="card bg-base-300 w-full shadow-sm p-3 hover:shadow-md hover:scale-97 transition-all duration-700 ease-in">
       <div className="rounded-lg">
-        <figure className="h-60 overflow-hidden object-cover">
+        <figure className="h-45 overflow-hidden object-cover">
           <img
             className="rounded-lg h-70 w-full hover:scale-105 transition-all duration-500 ease-out"
             src={pictureURL}
@@ -43,7 +43,7 @@ const ToyCard = ({ sigleToy }) => {
           <div className="card-actions w-full">
             <Link
               to={`/toydetails/${toyId}`}
-              className="btn text-white hover:bg-linear-to-l bg-linear-to-r to-[#500fe7] from-[#9F62F2]  w-full"
+              className="btn text-white transition-colors duration-700 ease-in-out bg-[#258184] hover:bg-[#0aacb2]  w-full"
             >
               View Details{" "}
               <span className="ml-2">
